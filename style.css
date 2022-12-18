@@ -1,0 +1,27 @@
+.container{
+    width: 50%;
+    margin: auto;
+
+
+}
+.elm{
+    margin: 6px;
+}
+.input{
+    padding: 3px;
+    background: #dad1d1;
+}
+.btn{
+    padding: 3px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    padding: 3px;
+    background: #943d3d;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
