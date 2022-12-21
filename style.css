@@ -71,6 +71,19 @@ body{
 .msg{
     color:red;
 }
+.failure{
+    color:red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.success{
+    color:green;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+     
+}
 
 @media  only screen and (min-width: 270px) and (max-width:991px){
     .container{
