@@ -211,10 +211,14 @@ submit.addEventListener('click', (e)=>{
 
         console.log('Phone, email and user are valid. Submitting the form');
         success.classList.add('success');
+
         success.innerHTML ="Form submitted successfully.";
+        setTimeout(() => {
+            success.innerHTML = ""
+        }, 3000);
         failure.classList.remove('failure');
         failure.innerHTML = ""
-        
+
         validEmail = false
         validName = false
         validPhone = false
@@ -227,6 +231,9 @@ submit.addEventListener('click', (e)=>{
         success.classList.remove('success');
         failure.classList.add('failure');
         failure.innerHTML ="Form  not submitted successfully.";
+        setTimeout(() => {
+            failure.innerHTML = ""
+        }, 3000);
         success.innerHTML = ""
         
         }
